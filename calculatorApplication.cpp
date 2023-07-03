@@ -23,7 +23,7 @@ int main()
 		if (isNum1Int && isNum2Int)
 			cout << num1 << operation << num2 << "=" << (int)num1 % (int)num2;
 		else
-			cout << "please enter  integer values in order to operate the modulo operator " << endl;
+			cout << "Invalid format! " << endl;
 
 		break;
 		
